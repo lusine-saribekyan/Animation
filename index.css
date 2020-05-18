@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(184, 240, 240);
+}
+
+
+@keyframes Animation-exsample {
+    
+    0%{ transform: rotate(0deg);}
+    100% {transform: rotate(360deg)}
+
+    0%{color: yellow; font-size: 300px;}
+    50% {color: red; font-size: 200px;}
+    100%{color: purple; font-size: 200px;}
+ 
+    
+
+}
+
+
+.Animation-exsample{ 
+    
+    width: 400px;
+    height: 400px;
+    
+     font-size: 200px;
+     text-align: center;
+     margin: 100px;
+     padding: 100px; 
+     color: yellow;
+    
+    
+    animation-name: Animation-exsample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+.Animation-exsample:hover{
+    animation-play-state: paused;
+}
